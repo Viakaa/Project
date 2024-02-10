@@ -1,0 +1,43 @@
+.events{
+    height: 70vh;
+    margin: 0;
+}
+
+.eventsContainer{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.events h1{
+    font-size: 48px;
+    margin: 0;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.eventInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+.events p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.check{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    border:1px solid black;
+    width: 25%;
+    height: 25px;
+    max-height: 40px;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 30px;
+}
