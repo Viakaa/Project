@@ -1,0 +1,23 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F4F0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.buttons{
+  display: flex;
+  column-gap: 50px;
+  margin-top: 32px;
+  font-size: 16px;
+  margin-left: 65%;
+  font-family: sans-serif;
+  cursor: pointer;
+  position: absolute;
+}

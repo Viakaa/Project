@@ -1,0 +1,393 @@
+.placesContainer{
+   margin: 0;
+   z-index: 1;
+}
+
+#oldTown{
+    background-image: url(../../assets/images/catalina-johnson-inbePXjTh-A-unsplash\ .jpg);
+    height: 50%;
+    width: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60%;
+    margin-top: 15%;
+}
+
+.description {
+    padding-top: 10px;
+    border-top: 1px solid grey;
+    width: 270px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: Sora;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+
+.location{
+    display: flex;
+    flex-direction: row;
+}
+
+.locationIcon{
+    background-image: url(../../assets/icons/location.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+}
+
+.location p{
+    width: 260px;
+    font-size: 13px; 
+    text-decoration: underline;
+    font-family: Sora;
+}
+
+
+#sergelsTorg{
+    background-image: url(../../assets/images/philip-myrtorp-HHtWM-4ftBE-unsplash.jpg);
+    height: 90%;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: 15%;
+    border-radius: 10px;
+    margin-left: 60%;
+}
+
+.sergels{
+    margin-top: 23%;
+    margin-left: 15%;
+}
+
+#quote{
+    text-align: center;
+    height: 100vh;
+    margin-top: 20%;
+}
+
+#quote h1{
+    margin: 0;
+    font-size: 4em;
+    font-family: Sora;
+}
+
+#quote p{
+    font-size: 1em;
+    color: gray;
+}
+
+#royalePalace{
+    width: 100%;
+    height: 73vh;
+    background-color: #232628;
+    margin-top: 5%;
+}
+
+.bigPicture{
+    height: 60%;
+    width: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.one{
+    background-image: url(../../assets/images/344595-Stockholm-Royal-Palace-Stockholms-Slott.webp);
+    margin-left: 8%;
+}
+
+.two{
+    background-image: url(../../assets/images/Stockholmint12SlottskyrkanKunglHovstaternafoto.width-800_oHemLAa.jpg);
+    margin-left: 50%;
+}
+
+
+.info {
+    color: white;
+    padding-top: 23%;
+    padding-left: 10%;
+}
+
+.white{
+    background-image: url(../../assets/icons/white_location.png);
+}
+
+#fotografiska{
+    width: 100%;
+    height: 80vh;
+}
+
+.building{
+    background-image: url(../../assets/images/24e7e5da3d8e40bbbee259ea6431d176.avif);
+    margin-left: 10%;
+}
+
+#fotografiska .information{
+    margin-left: 53%;
+    padding-top: 3%;
+}
+
+.gallery{
+    height: 30%;
+    width: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.first{
+    margin-left: 52%;
+    background-image: url(../../assets/images/Fotografiska.jpeg);
+}
+
+.second{
+    margin-left: 74%;
+    background-image: url(../../assets/images/PDP_194089_01.jpeg);
+}
+
+#skansenZoo{
+    width: 100%;
+    height: 100vh;
+}
+
+#skansenZoo .information{
+    margin-left: 10%;
+}
+
+#skansenZoo .information .description{
+    border: none;
+    margin-top: 25%;
+    width: 40%;
+    font-size: 14px;
+}
+
+.pigPicture{
+    margin-left: 50%;
+    background-image: url(../../assets/images/karl-hedin-RqTersIjy-4-unsplash.jpg);
+}
+
+.bearPicture{
+    margin-left: 50%;
+    margin-top: 30%;
+    background-image: url(../../assets/images/karl-hedin-iXHU1dNBhQE-unsplash.jpg);
+
+}
+
+.towerPicture{
+    margin-top: 10%;
+    margin-left: 72%;
+    background-image: url(../../assets/images/aubin-kirch-EQ7zjAWuQ2s-unsplash.jpg);
+
+}
+
+.skansenPicture{
+    margin-top: 40%;
+    margin-left: 72%;
+    background-image: url(../../assets/images/djurgardenskansen-2-.jpeg);
+
+}
+
+.pictures{
+    height: 60%;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#cityHall{
+    width: 100%;
+    height: 120vh;
+    background-color: #232628;
+    margin-top: 50%;
+}
+
+.hallPicture{
+    background-image: url(../../assets/images/anastacia-dvi-SvwMa5Mwzoc-unsplash.jpg);
+    background-position: center;
+    height: 65%;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 35%;
+    margin-left: 10%;
+}
+
+#cityHall .info{
+    padding: 0;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 15%;
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5%;
+}
+
+#cityHall .description{
+    border: none;
+    margin-left: 20%;
+    width: 70%;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+#cityHall h1{
+    margin-top: 10%;
+}
+
+.placesPhotos{
+    margin-top: 5%;
+    display: flex;
+    column-gap: 10px;
+    width: 90%;
+    height: 30vh;
+    margin-left: 10%;
+}
+
+.placesPhotos img{
+    background-position: center;
+    height: 100%;
+    width: 22%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    filter: brightness(0.7);
+}
+
+.Monteliusvägen{
+    background-image: url(../../assets/images/wahid-sadiq-hqDf171O0eU-unsplash.jpg);
+}
+
+.grönaLund{
+    background-image: url(../../assets/images/Grona-Lund.webp);
+}
+
+.vasaMuseum{
+    background-image: url(../../assets/images/StockholmLGBT-VasaMusuem.jpeg);
+
+}
+
+.skyView{
+    background-image: url(../../assets/images//image.jpeg);
+}
+
+.textPlaces{
+    margin-top: 10%;
+    z-index: 1;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15%;
+    margin-left: 11%;
+    color: white;
+    font-family: monospace;
+    position: absolute;
+}
+
+.textPlaces p{
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 23px;
+    text-align: center;
+    padding-top: 8px;  
+    border-radius: 10px;
+}
+
+#bestRestaurants{
+    width: 100%;
+    height: 140vh;
+}
+
+#bestRestaurants h1{
+    font-family: Sora;
+    font-size: 4em;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.restaurants{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    width: 40%;
+    margin-left: 12%;
+}
+
+.restaurants img{
+    background-position: center;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.ekstedt img{
+    background-image: url(../../assets/restaurants/ekstedt_boxar.png);
+}
+
+.meatballs img{
+    background-image: url(../../assets/restaurants/meatballs.jpg);
+}
+
+.lilla img{
+    background-image: url(../../assets/restaurants/lilla.jpeg);
+}
+
+.brasserie img{
+    background-image: url(../../assets/restaurants/Astoria_logo.png);
+}
+
+.line{
+    display: flex;
+    column-gap: 25px;
+    margin-top: 40px;
+}
+
+.border{
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.name h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: Sora;
+    font-size: 15px;
+}
+
+.foodPicture{
+    background-image: url(../../assets/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-position: center;
+    height: 65%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 20%;
+}

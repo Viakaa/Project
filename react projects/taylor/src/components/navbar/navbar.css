@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+    column-gap: 80%;
+    padding-top: 10px;
+}
+
+.ladyIcon{
+    background-image: url(../../assets/icons/icon.png);
+    height: 50px;
+    width: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.subscribe{
+    height: 30px;
+    width: 116px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 70px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+

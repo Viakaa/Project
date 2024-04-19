@@ -1,0 +1,213 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: monospace;
+    color: aliceblue;
+    filter: opacity(0.5);
+    transition: filter 0.3s ease-in-out;
+    text-shadow:  0 0 10px rgb(251, 248, 251);
+}
+
+.navbar:hover {
+  filter: opacity(1); 
+}
+
+.menu{
+    width: 15%;
+    height: 65%;
+    border: 0;
+    background-color: transparent;
+}
+
+.menu img{
+    background-image: url(../../assets/icons/menu.png);
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+}
+
+.volumeIcon img {
+  background-image: url(../../assets/icons/volume.png);
+  width: 60%;
+  height: 100%;
+  background-size: cover;
+}
+
+.volumeIcon{
+  width: 15%;
+  height: 65%;
+  border: 0;
+  background-color: transparent;
+  margin-left: 50%;
+}
+
+
+.homeButton{
+    width: 20%;
+    height: 70%;
+    font-size: 20px;
+    padding-top: 1%;
+    color: aliceblue;
+    background-color: unset;
+    border: unset;
+}
+
+.leftSide {
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+}
+
+.rightSide{
+  margin-top: 10px;
+  width: 50%;
+  display: flex;
+}
+
+
+.homeButton {
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .homeButton::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: aliceblue;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .homeButton:hover::before {
+    width: 100%;
+  }
+  
+  .homeButton:active {
+    background-color: rgba(255, 255, 255, 0.2); 
+  }
+
+.List{
+    background-color: aliceblue;
+    width: 290px;
+    padding: 10px 10px 10px 0;  
+    border-radius: 10px;
+    margin-top: 10px;
+    filter: opacity(0.5);
+}
+
+.List {
+  filter: opacity(1);
+}
+
+.List{
+    animation: slideDown 0.5s ease-out;
+  }
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translate(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .timer {
+    width: 50%;
+    display: flex;
+    column-gap: 10%;
+  }
+  
+.timerContainer{
+  animation: slideRight 0.5s ease-out;
+
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.timer img {
+  background-image: url(../../assets/icons/timer.png);
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+}
+
+.timer p{
+  font-size: 18px;
+}
+
+.startPauseButton{
+  background-color: transparent;
+  border: 0;
+  color: aliceblue;
+   text-shadow:  0 0 10px rgb(251, 248, 251);
+  font-size: 18px;
+  transition:  0.3s ease-in-out, color 0.3s ease-in-out; 
+  border-radius: 10px;
+}
+
+.startPauseButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.startPauseButton:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(0.95); 
+}
+
+.timerIcon img:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.timerIcon img:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(0.95); 
+}
+
+.timerIcon{
+  background-color: unset;
+  border: 0;
+  transition:  0.3s ease-in-out, color 0.3s ease-in-out; 
+} 
+
+.timerContainer{
+  width: 100%;
+  display: flex;
+  column-gap: 10%;
+}
+
+.List .soundsItem{
+  color: black;
+}
+
+
+.List .soundsItem:active {
+  background-color: rgb(145, 145, 145);
+}
+
+.List .soundsItem:hover{
+  background-color: rgb(145, 145, 145);
+  filter: opacity(0.6);
+  transform: scale(1.1);
+  transition: 0.5s;
+}

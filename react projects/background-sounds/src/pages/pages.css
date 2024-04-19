@@ -1,0 +1,23 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.playButton img {
+  margin-left: 40%;
+  margin-top: 10%;
+  background-image: url(../assets/icons/play-button.png);
+  width: 22%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.playButton.hidden {
+  display: none;
+}
